@@ -24,6 +24,9 @@
 - (void)viewWillAppear:(BOOL)animated {
     __weak __typeof__(self) weakSelf = self;
     
+    // of course we won't be able to use RxCocoa binders for Objc ViewControllers
+    // but we can pass a oc block into a swift extension
+    
     [self subscribeCold:^(NSString * _Nonnull str) {
         // set UI elements within block
         weakSelf.label.text = str;

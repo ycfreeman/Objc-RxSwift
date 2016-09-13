@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B64EA1F81D8809AC008AEB1B /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = B64EA1F71D8809AC008AEB1B /* Cartfile */; };
 		B65714551D8823C9004EF065 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B65714541D8823C9004EF065 /* ViewController2.m */; };
+		B65714821D88301A004EF065 /* README.MD in Sources */ = {isa = PBXBuildFile; fileRef = B65714811D88301A004EF065 /* README.MD */; };
 		B67A40441D88048A00069CAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B67A40431D88048A00069CAC /* main.m */; };
 		B67A40471D88048A00069CAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B67A40461D88048A00069CAC /* AppDelegate.m */; };
 		B67A404A1D88048A00069CAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B67A40491D88048A00069CAC /* ViewController.m */; };
@@ -214,6 +215,7 @@
 		B64EA1F71D8809AC008AEB1B /* Cartfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Cartfile; sourceTree = "<group>"; };
 		B65714531D8823C9004EF065 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		B65714541D8823C9004EF065 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		B65714811D88301A004EF065 /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 		B67A403F1D88048A00069CAC /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67A40431D88048A00069CAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B67A40451D88048A00069CAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 		B67A40361D88048A00069CAC = {
 			isa = PBXGroup;
 			children = (
+				B65714811D88301A004EF065 /* README.MD */,
 				B6E78BC21D880E1300337C2C /* Rx.xcodeproj */,
 				B64EA1F71D8809AC008AEB1B /* Cartfile */,
 				B67A40411D88048A00069CAC /* test */,
@@ -672,6 +675,7 @@
 				B67A40471D88048A00069CAC /* AppDelegate.m in Sources */,
 				B67A40441D88048A00069CAC /* main.m in Sources */,
 				B65714551D8823C9004EF065 /* ViewController2.m in Sources */,
+				B65714821D88301A004EF065 /* README.MD in Sources */,
 				B6E78BC11D880C7900337C2C /* ViewController+Extension.swift in Sources */,
 				B67A40791D8804CE00069CAC /* TestRepo.swift in Sources */,
 			);
